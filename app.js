@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const pool = require('./pool');
 
+//Server
 module.exports = () => {
     const app = express();
 
